@@ -20,15 +20,15 @@ Aşağıdakileri yap:
    İPUCU: fonksiyon oluşturmaya gerek yok
 */
 let surucuYasi = 30;
-let surucuIsmi = "Elif";
 
 if (surucuYasi > 18) 
 {
-  console.log ("Sürücünün yaşı 18'den büyüktür")
-} else
-{
-  console.log ("false");
-}
+console.log ("true")
+} 
+else
+
+console.log ("false");
+
 /*
 Görev 1b - Değerler (puanlamaya dahil değildir)
 
@@ -72,8 +72,9 @@ Aşağıdakileri yaparak carpma isimli fonksiyonu tamamla:
    3. console.log(carpma(7,4)) ile yazdığın fonsiyonu test edin. Console'da sonucu 28 olarak görmelisin.
 */
 
-function carpma(a,b) {
-  return a*b
+function carpma(a,b) 
+{
+return a*b
 }
 
 /* Görev 2 : Köpeğin Yaşı */
@@ -85,7 +86,8 @@ Aşağıdakileri yap:
  3. Hesaplanan köpeğin yaşını dönün.
  */
 
-function kopeginYasi (yas) {
+function kopeginYasi (yas) 
+{
  let kopekYasi = yas*7;
  return kopekYasi ;
 }
@@ -121,7 +123,6 @@ else { return "Kaybettin!" }
 console.log (oyun ("Kağıt", "Taş"));
 
 // Şimdi Taş, Kağıt, Makas oyununu bilgisayara karşı oynayalım!
-function bilgisayarinSecimi(){}
 
 /*Öncelikle aşağıdakileri yap:
 1. Bilgisayarın seçimini rastgele oluşturacağım bir fonksiyon tanımla. Örn: 
